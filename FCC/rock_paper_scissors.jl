@@ -3,7 +3,6 @@ function rock_paper_scissors()
     computer_move = moves[rand(1:3)]
     player_score = 0
     computer_score = 0
-
     human_move = Base.prompt("Velg stein, saks eller papir")
 
     println("Stein...")
